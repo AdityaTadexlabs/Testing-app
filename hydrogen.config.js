@@ -4,11 +4,11 @@ export default defineConfig({
   shopify: {
     defaultCountryCode: 'US',
     defaultLanguageCode: 'EN',
-    storeDomain: Oxygen.env.PUBLIC_STORE_DOMAIN,
-    storefrontToken: Oxygen.env.PUBLIC_STOREFRONT_API_TOKEN,
-    privateStorefrontToken: Oxygen.env.PRIVATE_STOREFRONT_API_TOKEN,
+    storeDomain: 'warmies-usa-wholesale-sandbox.myshopify.com',
+    storefrontToken: '02dc553de565bdd258ec42ec05745375',
+    privateStorefrontToken: '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',
     storefrontApiVersion: '2022-07',
-    storefrontId: Oxygen.env.PUBLIC_STOREFRONT_ID,
+    storefrontId: '1278141',
   },
   session: CookieSessionStorage('__session', {
     path: '/',
